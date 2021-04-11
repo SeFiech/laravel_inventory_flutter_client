@@ -2,7 +2,8 @@
     package="com.example.laravel_inventory_flutter_client">
    <application
         android:label="laravel_inventory_flutter_client"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
